@@ -8,8 +8,6 @@ if (localStorage.getItem("idle") === 1) {
     Idle();
 }
 
-setInterval(GainPassif, 1000);
-
 // Récupération des variables
 var nb = parseInt(localStorage.getItem("nb"));
 var up = parseInt(localStorage.getItem("up"));
@@ -41,6 +39,7 @@ function bouton_up1(){
 
 function UnlockIdle() {
     idle = 1;
+    setInterval(GainPassif,1000);
 }
 
 function GainPassif(){
