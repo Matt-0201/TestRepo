@@ -8,9 +8,8 @@ if (localStorage.getItem("idle") === 1) {
     Idle();
 }
 
-function Idle (){
-    setInterval(GainPassif, 1000);
-}
+setInterval(GainPassif, 1000);
+
 // Récupération des variables
 var nb = parseInt(localStorage.getItem("nb"));
 var up = parseInt(localStorage.getItem("up"));
