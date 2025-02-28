@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+    text-shadow: 3px 3px 4px gray;
+}
+
+#bouton_1 {
+    margin: auto;
+    font-size: 20px;
+    width: 200px;
+    height: 200px;
+    border: solid gray 3px;
+    box-shadow: 4px 4px 5px black;
+}
+
+.btn {
+    display: flex;
+    margin: 0 70% 0 0;
+}
+
+.btn_reset {
+    display: flex;
+    margin: 50% 0 0 0;
+}
